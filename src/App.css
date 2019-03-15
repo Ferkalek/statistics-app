@@ -1,0 +1,51 @@
+label {
+    line-height: 1.4;
+    text-align: right;
+}
+
+input {
+    flex-grow: 1;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    outline: none;
+    margin-left: 1em;
+    padding: 0 15px;
+    transition: background-color 0.3s;
+    -webkit-appearance: none;
+}
+
+input {
+    border: none;
+    border: 1px solid black;
+    border-radius: 0;
+    outline: none;
+}
+
+input:hover {
+    background: lightgray;
+}
+
+input:focus {
+    background: yellow;
+}
+
+input:active {
+    background: #fff;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.row>* {
+    flex: 1 1 50%;
+}
